@@ -189,7 +189,7 @@ else:
 
     # Mostramos el gráfico seleccionado
     if grafico_seleccionado == 'Gráfico de palabras':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico elaborado corresponde a una nube de palabras que visualiza con mayor claridad los términos que se repiten con más frecuencia en un texto relacionado con el paro motivado por las extorsiones. Esta representación permite identificar rápidamente cuáles son las palabras predominantes dentro del discurso, ya que su tamaño aumenta en función del número de veces que aparecen en el texto. De este modo, la nube no solo sintetiza la información, sino que también revela las ideas centrales y las preocupaciones más recurrentes en torno al contexto del paro, facilitando una lectura interpretativa más ágil y directa.</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico elaborado corresponde a una nube de palabras que visualiza con mayor claridad los términos que se repiten con más frecuencia en un texto relacionado con el paro motivado por las extorsiones. Esta representación permite identificar rápidamente cuáles son las palabras predominantes dentro del discurso, ya que su tamaño aumenta en función del número de veces que aparecen en el texto. De este modo, la nube no solo sintetiza la información, sino que también revela las ideas centrales y las preocupaciones más recurrentes en torno al contexto del paro, facilitando una lectura interpretativa más ágil y directa. En este caso vemos como se repiten más que nada conectores pero tambien palabras como estorsión, ignorancia, incapacidad y presidenta. </div>", unsafe_allow_html=True)
         st.image("nube_paro.png", caption='Gráfico de nube paro', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de barras de los goles del Real Madrid':
@@ -239,6 +239,7 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
 
 
 
