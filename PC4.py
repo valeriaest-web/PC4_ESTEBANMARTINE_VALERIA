@@ -198,11 +198,11 @@ else:
         st.image("goles_RealMadrid.png", caption='Gráfico de los goles del Real Madrid', width=500)
         pass
     elif grafico_seleccionado == 'Gráfico de goles de Sevilla local':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu gráfico</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>Los cuatro gráficos presentados ofrecen una mirada comparativa sobre el comportamiento goleador del Real Madrid tanto en condición de local como de visitante. El primer gráfico muestra la cantidad de goles anotados cuando el equipo juega en casa, mientras que el segundo expone los goles que recibe en esa misma condición. Por otro lado, el tercer gráfico recoge los goles convertidos cuando actúa como visitante y el cuarto representa los goles que recibe fuera de su estadio. En conjunto, estos datos permiten identificar patrones de rendimiento según la localía: en los partidos disputados como local se observa un promedio de entre siete y ocho encuentros analizados, lo que aporta una base consistente para interpretar las diferencias en su desempeño ofensivo y defensivo.</div>", unsafe_allow_html=True)
         st.image("grafico_sevilla_local.png", caption='Gráfico de goles Sevilla local', width=500)
         pass
     elif grafico_seleccionado == 'mapa peliculas favoritas':
-        st.markdown("<div style='text-align: justify; font-size: 20px;'>Aquí debe ir una breve interpretación de tu mapa</div>", unsafe_allow_html=True)
+        st.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico de pastel muestra de manera clara cómo se distribuyen los resultados del Sevilla cuando juega como equipo local. Según los datos, el 31.6% de los partidos fueron ganados, mientras que un 36.8% terminaron en derrota y el 31.6% restante concluyó en empate. Esta distribución revela un rendimiento bastante equilibrado, aunque con una ligera tendencia hacia los partidos perdidos, que representan la proporción más alta. En conjunto, el gráfico permite observar que, pese a mantener una cantidad similar de victorias y empates, el Sevilla enfrenta ciertas dificultades para asegurar resultados positivos en su propio estadio, lo que podría influir en su desempeño general a lo largo de la temporada.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
         with open("mapa_peliculas_favoritas.html", "r", encoding="utf-8") as f:
@@ -240,6 +240,7 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
 
 
 
