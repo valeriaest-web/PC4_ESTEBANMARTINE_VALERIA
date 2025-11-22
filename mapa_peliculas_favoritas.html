@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_a82d228f30f565760b131252f9a795cb {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_a82d228f30f565760b131252f9a795cb" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_a82d228f30f565760b131252f9a795cb = L.map(
+                "map_a82d228f30f565760b131252f9a795cb",
+                {
+                    center: [20.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_468d9c0b4421ec93c13ab54ccce1cd1f = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_468d9c0b4421ec93c13ab54ccce1cd1f.addTo(map_a82d228f30f565760b131252f9a795cb);
+        
+    
+            var marker_c2c4645c14cd235f1a3a71f28e11aac1 = L.marker(
+                [-15.8402, -70.0219],
+                {
+}
+            ).addTo(map_a82d228f30f565760b131252f9a795cb);
+        
+    
+            var icon_a101e781dea8f391cfa4aa920afec65b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7c8065d079b43fa17b575e16d8040be3 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_df2a07d4a875b09bf43c96b8e11849e5 = $(`<div id="html_df2a07d4a875b09bf43c96b8e11849e5" style="width: 100.0%; height: 100.0%;"><b>Wiñaypacha</b><br>Director: Óscar Catacora<br>Año: 2017<br>País: Perú<br>Género: Drama / Etnoficción</div>`)[0];
+                popup_7c8065d079b43fa17b575e16d8040be3.setContent(html_df2a07d4a875b09bf43c96b8e11849e5);
+            
+        
+
+        marker_c2c4645c14cd235f1a3a71f28e11aac1.bindPopup(popup_7c8065d079b43fa17b575e16d8040be3)
+        ;
+
+        
+    
+    
+            marker_c2c4645c14cd235f1a3a71f28e11aac1.bindTooltip(
+                `<div>
+                     Wiñaypacha
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c2c4645c14cd235f1a3a71f28e11aac1.setIcon(icon_a101e781dea8f391cfa4aa920afec65b);
+            
+    
+            var marker_caf6fa9be89d42853b5dee66805addbe = L.marker(
+                [52.8382, -0.6473],
+                {
+}
+            ).addTo(map_a82d228f30f565760b131252f9a795cb);
+        
+    
+            var icon_4c98f6413aa2d9b3701b04c937c1cfaf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_feb04493b37ace989eaea9ed6e909ecf = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_05d25db3fea29e074132207186bb5c55 = $(`<div id="html_05d25db3fea29e074132207186bb5c55" style="width: 100.0%; height: 100.0%;"><b>Orgullo y prejuicio</b><br>Director: Joe Wright<br>Año: 2005<br>País: Reino Unido<br>Género: Drama / Romance</div>`)[0];
+                popup_feb04493b37ace989eaea9ed6e909ecf.setContent(html_05d25db3fea29e074132207186bb5c55);
+            
+        
+
+        marker_caf6fa9be89d42853b5dee66805addbe.bindPopup(popup_feb04493b37ace989eaea9ed6e909ecf)
+        ;
+
+        
+    
+    
+            marker_caf6fa9be89d42853b5dee66805addbe.bindTooltip(
+                `<div>
+                     Orgullo y prejuicio
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_caf6fa9be89d42853b5dee66805addbe.setIcon(icon_4c98f6413aa2d9b3701b04c937c1cfaf);
+            
+    
+            var marker_51529114afd8c8755ee71ce725546047 = L.marker(
+                [41.4901, -71.579],
+                {
+}
+            ).addTo(map_a82d228f30f565760b131252f9a795cb);
+        
+    
+            var icon_18ed8308c4b9cc420e226d87a297b871 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ce2b055616ba081b555323483643ba2f = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_f681d46275963c9625c02b8d665191d9 = $(`<div id="html_f681d46275963c9625c02b8d665191d9" style="width: 100.0%; height: 100.0%;"><b>El conjuro</b><br>Director: James Wan<br>Año: 2013<br>País: Estados Unidos<br>Género: Terror / Misterio</div>`)[0];
+                popup_ce2b055616ba081b555323483643ba2f.setContent(html_f681d46275963c9625c02b8d665191d9);
+            
+        
+
+        marker_51529114afd8c8755ee71ce725546047.bindPopup(popup_ce2b055616ba081b555323483643ba2f)
+        ;
+
+        
+    
+    
+            marker_51529114afd8c8755ee71ce725546047.bindTooltip(
+                `<div>
+                     El conjuro
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_51529114afd8c8755ee71ce725546047.setIcon(icon_18ed8308c4b9cc420e226d87a297b871);
+            
+    
+            var marker_dc6468a6eabc4747312519e0b00dad2f = L.marker(
+                [37.5665, 126.978],
+                {
+}
+            ).addTo(map_a82d228f30f565760b131252f9a795cb);
+        
+    
+            var icon_190ee45388c04c600d39564e7cad3f74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6e5ad4582841ff2d759d3eff9c0ef473 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_67092a2b95bbf4d2d472f0d00fae4261 = $(`<div id="html_67092a2b95bbf4d2d472f0d00fae4261" style="width: 100.0%; height: 100.0%;"><b>La frecuencia del amor</b><br>Director: Yoon Jong-seok<br>Año: 2019<br>País: Corea del Sur<br>Género: Romance / Drama</div>`)[0];
+                popup_6e5ad4582841ff2d759d3eff9c0ef473.setContent(html_67092a2b95bbf4d2d472f0d00fae4261);
+            
+        
+
+        marker_dc6468a6eabc4747312519e0b00dad2f.bindPopup(popup_6e5ad4582841ff2d759d3eff9c0ef473)
+        ;
+
+        
+    
+    
+            marker_dc6468a6eabc4747312519e0b00dad2f.bindTooltip(
+                `<div>
+                     La frecuencia del amor
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc6468a6eabc4747312519e0b00dad2f.setIcon(icon_190ee45388c04c600d39564e7cad3f74);
+            
+    
+            var marker_7712fbd3bfe62936a9bd16174c5f3a07 = L.marker(
+                [43.6532, -79.3832],
+                {
+}
+            ).addTo(map_a82d228f30f565760b131252f9a795cb);
+        
+    
+            var icon_e6a2136171456985cc3dbe82d0346a06 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "film",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_70bbe8653be50221769fcd48190da0be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_c9e32ebfe267ff05bfda6ae3c325e92a = $(`<div id="html_c9e32ebfe267ff05bfda6ae3c325e92a" style="width: 100.0%; height: 100.0%;"><b>Escuadrón suicida</b><br>Director: David Ayer<br>Año: 2016<br>País: Estados Unidos<br>Género: Acción / Fantasía</div>`)[0];
+                popup_70bbe8653be50221769fcd48190da0be.setContent(html_c9e32ebfe267ff05bfda6ae3c325e92a);
+            
+        
+
+        marker_7712fbd3bfe62936a9bd16174c5f3a07.bindPopup(popup_70bbe8653be50221769fcd48190da0be)
+        ;
+
+        
+    
+    
+            marker_7712fbd3bfe62936a9bd16174c5f3a07.bindTooltip(
+                `<div>
+                     Escuadrón suicida
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7712fbd3bfe62936a9bd16174c5f3a07.setIcon(icon_e6a2136171456985cc3dbe82d0346a06);
+            
+</script>
+</html>
