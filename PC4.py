@@ -105,7 +105,7 @@ if pagina_seleccionada == 'Inicio':
 elif  pagina_seleccionada == 'Experiencia':
 
     # Agregamos un título
-    st.markdown("<h1 style='text-align: center;'>Mi experiencia aprendiendo a programar 💻</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'> Mi experiencia aprendiendo a programar 💻</h1>", unsafe_allow_html=True)
 
     # En esta sección debes describir y comentar tu experiencia aprendiendo a programar
     # ¿Cómo te sentiste al principio?, 
@@ -129,7 +129,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # En este caso, {texto_2} se reemplaza por el valor de la variable texto.
 
     # Agregamos un subtítulo para el video
-    st.markdown("<h2 style='text-align: center;'>Primeros acercamientos a la programación</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center;'> Primeros acercamientos a la programación </h2>", unsafe_allow_html=True)
     
     # <h2 style='text-align: center;'>Aquí escribe un nombre creativo para presentar tu video</h2>: Esta es una cadena de código HTML.
     # La etiqueta <h2> se utiliza para un encabezado de segundo nivel en una página web.
@@ -239,5 +239,6 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
 
 
