@@ -113,7 +113,7 @@ elif  pagina_seleccionada == 'Experiencia':
     # ¿Qué te gustaría hacer con la programación en el futuro? 
 
     # Agregar un  texto para la respuesta
-    texto_2 = "La verdad es que mi experiencia no fue bueno porque nunca he sido hábil con los programas pero conforma pasaban los días en las clase he ido aprediendo a programas cosas básicas. La programación sigue siendo un reto me pone feliz como al menos puede ser capasz de diseñar una página y como en base a códigos que ingresamos los resultados que nos ofrece un programa pueden variar. En un futuro me gustaría con la programación llevar a cabo páginas interactativas en donde los usuarios puedan sentirse ameos con una página única y con un concepto creativo claro. Al estudiar publicidad considero indispensable la adquisión de este tipo de conocimiento "
+    texto_2 = "La verdad es que mi experiencia no fue buena al inicio, porque nunca he sido muy hábil con los programas, pero conforme pasaban los días en clase fui aprendiendo a programar cosas básicas. La programación sigue siendo un reto, aunque me alegra ver que ahora soy capaz de diseñar una página y comprender cómo, a partir de los códigos que ingresamos, los resultados pueden variar. En un futuro, me gustaría aplicar la programación para crear páginas interactivas en las que los usuarios se sientan a gusto, con una experiencia única y un concepto creativo claro, pues al estudiar publicidad considero indispensable adquirir este tipo de conocimientos."
    
 
     # Mostramos el texto
@@ -239,6 +239,7 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
 
 
 
