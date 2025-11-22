@@ -174,7 +174,7 @@ else:
     st.markdown("<h1 style='text-align: center;'>Mis primeros gráficos</h1>", unsafe_allow_html=True)
 
     # Creamos una lista de gráficos
-    graficos = ['Gráfico de palabras', 'Gráfico de barras de los goles del Real Madrid', 'Gráfico de goles de Sevilla local', 'mapa peliculas favoritas']
+    graficos = ['Gráfico de palabras', 'Gráfico de barras de los goles del Real Madrid', 'Gráfico de goles de Sevilla local', 'Mapa peliculas favoritas']
 
     # Creamos un cuadro de selección en la página de gráficos
     grafico_seleccionado = st.selectbox('Selecciona un gráfico', graficos)
@@ -201,7 +201,7 @@ else:
         st.markdown("<div style='text-align: justify; font-size: 20px;'>El gráfico de pastel muestra de manera clara cómo se distribuyen los resultados del Sevilla cuando juega como equipo local. Según los datos, el 31.6% de los partidos fueron ganados, mientras que un 36.8% terminaron en derrota y el 31.6% restante concluyó en empate. Esta distribución revela un rendimiento bastante equilibrado, aunque con una ligera tendencia hacia los partidos perdidos, que representan la proporción más alta. En conjunto, el gráfico permite observar que, pese a mantener una cantidad similar de victorias y empates, el Sevilla enfrenta ciertas dificultades para asegurar resultados positivos en su propio estadio, lo que podría influir en su desempeño general a lo largo de la temporada.</div>", unsafe_allow_html=True)
         st.image("grafico_sevilla_local.png", caption='Gráfico de goles Sevilla local', width=500)
         pass
-    elif grafico_seleccionado == 'mapa peliculas favoritas':
+    elif grafico_seleccionado == 'Mapa peliculas favoritas':
         st.markdown("<div style='text-align: justify; font-size: 20px;'>A continuación, se presenta un mapa en el que he ubicado cinco de mis películas favoritas según su lugar de producción. Cada punto marcando la ubicación incluye una ficha básica que detalla el nombre del director, el año de producción, el país de origen y el género cinematográfico. Las películas seleccionadas para esta visualización son El Conjuro, Orgullo y Prejuicio, La Frecuencia del Amor, Wiñaypacha y Escuadrón Suicida. Este mapa permite identificar de forma sencilla la diversidad geográfica y cultural de estas producciones, así como comparar aspectos fundamentales de cada una a través de la información sintetizada en sus respectivas fichas.</div>", unsafe_allow_html=True)
         # Si "mapa_cusco.html" es un archivo HTML (no una imagen), debes mostrarlo con st.components.v1.html
         import streamlit.components.v1 as components
@@ -240,6 +240,7 @@ else:
         #st_folium(mapa_cusco, width=700, height=500)
 
     
+
 
 
 
